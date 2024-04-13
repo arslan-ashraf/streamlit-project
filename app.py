@@ -15,24 +15,24 @@ st.markdown(content_to_hide, unsafe_allow_html=True)
 
 st.title("Insights from 1000 ML job listings scraped from Linkedin")
 
-libraries_frameworks_dict = { 'Apache Spark': 372, 'Data Visualization': 320, 
-							  'Big Data': 239, 'Tensorflow': 149, 'Pytorch': 125, 
-							  'Pandas': 116, 'Numpy': 109, 'Scikit-Learn': 105, 
-							  'Docker': 99, 'Kubernetes': 86, 'Matplotlib': 29 }
+libraries_frameworks_dict = { 'Apache Spark': 3064, 'Data Visualization': 3349, 
+							  'Big Data': 1866, 'Tensorflow': 1204, 'Pytorch': 1032, 
+							  'Pandas': 1099, 'Numpy': 999, 'Scikit-Learn': 626, 
+							  'Docker': 599, 'Kubernetes': 546, 'Matplotlib': 237 }
 
-analytics_visualization_dict = { 'tableau': 226, 'SAS': 217, 'Matlab': 62 }
+analytics_visualization_dict = { 'tableau': 1636, 'SAS': 1524, 'Matlab': 558 }
 
-ml_algorithms_dict = { 'NLP': 197, 'Computer Vision': 110 , 'Recommender Systems': 28 }
+ml_algorithms_dict = { 'NLP': 2076, 'Computer Vision': 901 , 'Forecasting': 664, 'Recommender Systems': 365 }
 
-cloud_platforms_dict = { 'AWS': 595, 'Azure': 472, 'GCP': 101 }
+cloud_platforms_dict = { 'AWS': 3821, 'Azure': 2667, 'GCP': 922 }
 
-experience_dict = { "1 YoE": 24, "2 YoE": 31, '3 YoE': 58, '4 YoE': 16, '5 YoE': 65 }
+experience_dict = { "1 YoE": 155, "2 YoE": 353, '3 YoE': 789, '4 YoE': 200, '5 YoE': 643 }
 
-education_dict = { 'Computer Science': 665, 'Math': 508, 'Problem Solving': 207 }
+education_dict = { 'Computer Science': 6460, 'Math': 3938 }
 
-data_language_dict = { 'SQL': 1154, 'NoSQL': 94 }
+data_language_dict = { 'SQL': 8983, 'NoSQL': 557 }
 
-analytics_storage_dict = { 'Data Warehouse/Lake': 438, 'Snowflake': 106, 'Databricks': 101 }
+analytics_storage_dict = { 'Data Warehouse': 1092, 'Lake': 548, 'Snowflake': 861, 'Databricks': 622 }
 
 
 education_df = pd.DataFrame.from_dict(data=education_dict,
