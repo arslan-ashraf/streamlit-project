@@ -16,8 +16,8 @@ st.markdown(content_to_hide, unsafe_allow_html=True)
 st.title("Insights from 1000 ML job listings scraped from Linkedin")
 
 libraries_frameworks_dict = { 'Data Visualization': 3349, 'Apache Spark': 3064, 
-							  'Big Data': 1866, 'Tensorflow': 1204, 'Pytorch': 1032, 
-							  'Pandas': 1099, 'Numpy': 999, 'Scikit-Learn': 626, 
+							  'Big Data': 1866, 'Tensorflow': 1204, 'Pandas': 1099, 
+							  'Pytorch': 1032, 'Numpy': 999, 'Scikit-Learn': 626, 
 							  'Docker': 599, 'Kubernetes': 546, 'Matplotlib': 237 }
 
 analytics_visualization_dict = { 'tableau': 1636, 'SAS': 1524, 'Matlab': 558 }
